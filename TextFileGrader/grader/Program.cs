@@ -38,12 +38,12 @@ namespace grader
 
             var sorted = lines.Select(line => new
             {
-                firstName = line.Split(',')[0],
-                lastName = line.Split(',')[1],
+                lastName = line.Split(',')[0],
+                firstName = line.Split(',')[1],
                 score = Int32.Parse(line.Split(',')[2]),
                 thisLine = line
             }
-            ).OrderByDescending(x => x.score).ThenBy(x => x.firstName).ThenBy(x => x.lastName). Select(x => x.thisLine);
+            ).OrderByDescending(x => x.score).ThenBy(x => x.lastName).ThenBy(x => x.firstName). Select(x => x.thisLine);
 
             string targetFile = Path.GetFileNameWithoutExtension(filePath) + "-graded.txt";
             File.WriteAllLines(targetFile, sorted.ToArray(), Encoding.Default);
