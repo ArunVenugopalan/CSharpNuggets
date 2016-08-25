@@ -3,3 +3,7 @@ C:\Users\Arun\Documents\Visual Studio 2015\Projects\grader\grader\bin\Debug\grad
 C:\Users\Arun\Documents\Visual Studio 2015\Projects\grader\grader\bin\Debug\grader.pdb
 C:\Users\Arun\Documents\Visual Studio 2015\Projects\grader\grader\obj\Debug\grader.exe
 C:\Users\Arun\Documents\Visual Studio 2015\Projects\grader\grader\obj\Debug\grader.pdb
+C:\Users\Arun\documents\visual studio 2015\Projects\grader\grader\obj\Debug\grader.csprojResolveAssemblyReference.cache
+C:\Users\Arun\Documents\GitHub\CSharpNuggets\TextFileGrader\grader\bin\Debug\grader.exe.config
+C:\Users\Arun\Documents\GitHub\CSharpNuggets\TextFileGrader\grader\obj\Debug\grader.exe
+C:\Users\Arun\Documents\GitHub\CSharpNuggets\TextFileGrader\grader\obj\Debug\grader.pdb
